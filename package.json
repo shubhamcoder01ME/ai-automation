@@ -1,23 +1,22 @@
 {
-  "name": "securends_playright",
+  "name": "ai-automation",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhamcoder01ME/ai-automation.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhamcoder01ME/ai-automation/issues"
+  },
+  "homepage": "https://github.com/shubhamcoder01ME/ai-automation#readme",
+  "description": "",
   "devDependencies": {
-    "@cucumber/cucumber": "^12.2.0",
-    "@playwright/test": "^1.55.0",
-    "@types/node": "^24.5.2",
-    "playwright": "^1.55.0"
-  },
-  "directories": {
-    "test": "tests"
-  },
-  "dependencies": {
-    "playwright-core": "^1.55.0",
-    "undici-types": "^7.12.0"
-  },
-  "description": ""
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1"
+  }
 }
